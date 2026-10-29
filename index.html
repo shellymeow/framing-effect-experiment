@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Decision Making</title>
+        <script src="jspsych/dist/jspsych.js"></script> <!-- Core jsPsych library-->
+        <script src="jspsych/dist/plugin-instructions.js"></script>
+        <script src="jspsych/dist/plugin-html-button-response.js"></script>
+        <script src="jspsych/dist/plugin-html-keyboard-response.js"></script>
+        <script src="jspsych/dist/plugin-instructions.js"></script>
+        <script src="jspsych/dist/plugin-html-slider-response-value.js"></script>
+        <script src="jspsych/jquery-3.7.1.js"></script>                <!-- key to show value in xiong's slider-response-value -->
+        <script src="jspsych/dist/plugin-survey-likert.js"></script>
+        <script src="jspsych/dist/plugin-survey.js"></script>
+        <script type="text/javascript" src="lib/jspsych-7-pavlovia-2022.1.1.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/@jspsych/plugin-survey@2.0.0/css/survey.css">
+        <link href="jspsych/dist/jspsych.css" rel="stylesheet" type="text/css">
+    <style>
+        .question_text{
+            text-align: center; 
+            font-size: 22px;
+        }
+        .button_style{
+            font-size: 22px;
+        }
+        .instruction_img{
+            width:1000px;
+            height:auto;
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .instruction_style{
+            font-size: 22px;
+        }
+        .fixation_style{
+            font-size:100px;
+        }
+        /* Set a maximum width for the stimulus and center it */
+    
+        .responsive_stimulus {
+            font-size: 22px; /* Adjust font size for readability */
+            max-width: 1000px; /* Restrict width for readability */
+            margin: 0 auto; /* Center the element horizontally */
+            padding: 10px; /* Add padding around the content */
+            text-align: left; /* Align text to the left for each line */
+            word-wrap: break-word; /* Ensure long words break to the next line instead of overflowing */
+        }
+
+        /* Target buttons in the main task and follow-up task */
+        .main_task button.jspsych-btn, .follow_up_task button.jspsych-btn {
+            font-size: 22px;             /* Font size */
+            height: 200px;               /* Button height */
+            width: 350px;                /* Button width */
+            word-wrap: break-word;       /* Break long words if necessary */
+            word-break: break-word;      /* Ensure words break within the button */
+            text-align: center;          /* Center the text inside the button */
+            white-space: normal;         /* Allow text to wrap and display fully */
+        }
+
+        .instruction {
+        color: gray;
+        font-size: 22px;
+        }
+
+        .label_style {
+        font-size: 20px;
+        }
+    </style>
+    <body></body>
+    <script src="frame-neutrality_v02.js"></script>
+</html>
+
+<!-- <script src="jspsych/jspsych-7-pavlovia-2022.1.1.js"></script> 
+<script src="jspsych/jspsych-pavlovia-3.0.0.js"></script>      
+<script src="jspsych/jquery-3.7.1.js"></script>
+<link href="https://unpkg.com/jspsych@7.3.4/css/jspsych.css" rel="stylesheet" type="text/css" /> -->
